@@ -21,7 +21,7 @@
   border-radius: 20px;
 }
 .taskValue {
-  width: 80%;
+  width: 70%;
   border: none;
   padding: 10px;
   border-radius: 10px;
@@ -48,3 +48,4 @@
   padding: 7px;
   cursor: pointer;
 }
+
