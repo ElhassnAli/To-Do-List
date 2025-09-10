@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 0 15px;
+  background-color: white;
+  align-items: center;
+}
+.Main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 20px;
+}
+.taskValue {
+  width: 80%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.addBtn {
+  border: none;
+  background-color: rgb(246, 42, 42);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.renderTask {
+  background-color: #eee;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+.button {
+  border: none;
+  background-color: rgb(246, 42, 42);
+  color: white;
+  border-radius: 15px;
+  padding: 7px;
+  cursor: pointer;
+}
