@@ -1,7 +1,7 @@
 let taskValue = document.querySelector(".taskValue");
 let addBtn = document.querySelector(".addBtn");
 let renderTask = document.querySelector(".renderTask");
-let tasks = JSON.parse(window.localStorage.getItem("Tasks"));
+let tasks = JSON.parse(window.localStorage.getItem("Tasks"))||[];
 
 //create function add Task
 function renderTasks(i, index) {
@@ -37,3 +37,4 @@ addBtn.addEventListener("click", function () {
     taskValue.value = "";
   }
 });
+
